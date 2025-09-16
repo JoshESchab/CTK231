@@ -1,0 +1,154 @@
+
+h1 {
+
+    color: rgb(255, 94, 0); 
+    background-color: rgb(80, 65, 168); 
+     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+
+
+h2 {
+color: rgb(255, 52, 2); 
+    background-color: rgb(80, 65, 168); 
+     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+body{
+     font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: normal;
+    font-size: 24px;
+    background-image: url(ocean-surface.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+h3{
+color: rgb(255, 94, 0); 
+    background-color: rgba(80, 65, 168); 
+     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+h4{
+color: rgb(255, 94, 0); 
+    background-color: rgba(80, 65, 168); 
+     font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+
+
+.basicinfo {
+    color: rgb(200, 255, 0);
+    background-color:blueviolet;
+}
+
+
+
+.spans1 {
+color: rgb(255, 0, 0);
+    background-color:rgb(0, 0, 0);
+}
+
+.bruh1 {
+     color: rgb(200, 255, 0);
+    background-color:rgb(19, 61, 177);
+}
+
+.burger3 {
+
+    color: rgb(255, 94, 0);
+    background-color:rgb(98, 15, 146);
+}
+
+.bruh5{
+    color: rgb(98, 15, 146);
+}
+
+.customtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.imgbox2{
+border: 20px solid rgb(0, 0, 0);
+padding: 10px;
+margin: 20px;
+background-color: rgb(229, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+a:link{
+    color:#ff0000;
+
+}
+
+a:visited{
+
+    color:#15d66c;
+}
+
+a:active{
+color:#1100ff;
+}
+
+a:hover{
+
+color: #d0fd05;
+text-decoration: underline;
+}
+
+footer {
+
+background-color:green;
+
+}
+
+.ultraman{
+    text-align: center;
+ color: rgb(255, 94, 0);
+    background-color:rgb(98, 15, 146);
+}
+
+.beef{
+    text-align: justify;
+    color: rgb(255, 94, 0);
+    background-color:rgb(98, 15, 146);
+}
