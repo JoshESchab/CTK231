@@ -2,6 +2,121 @@ body {
   background-color: #999999;
 }
 
+h1{text-align: center}
+
+header{
+    grid-column: span 12;
+    background-color: orange;
+    color: black;
+    height: 70px;
+  font-family: "Sixtyfour", sans-serif;
+  border-radius: 48px;
+  border: solid black;
+      box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+    
+}
+
+
+#myCarousel {
+  margin-top: 20px;
+  margin-bottom: 24px;
+  border: 2px solid black;
+}
+
+#myCarousel .f-carousel__slide, #secondCarousel .f-carousel__slide {
+  text-align: center;
+  
+  background: #eee;
+}
+
+.f-carousel {
+  --f-arrow-pos: 10px;
+
+  --f-arrow-width: 50px;
+  --f-arrow-height: 50px;
+
+  --f-arrow-svg-width: 16px;
+  --f-arrow-svg-height: 16px;
+  --f-arrow-svg-stroke-width: 2.5;
+
+  --f-arrow-color: #df1a2a;
+  --f-arrow-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-arrow-border-radius: 50%;
+  --f-arrow-bg: #fff;
+  --f-arrow-hover-bg: #f9f9f9;
+  --f-arrow-active-bg: #f0f0f0;
+}
+
+
+
+
+
+main{
+grid-column: span 12;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.me{
+  grid-column: span 8;
+  width: 800px;
+  padding:20px;
+  display: block;
+  margin-top: -500px;
+}
+
+.you{
+  grid-column: span 12;
+  width: 300px;
+}
+
+nav{
+  grid-column: span 4;
+  margin-top: -500px;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav li{
+list-style: none;
+  margin-bottom: 50px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  overflow: hidden; 
+}
+
+nav li a{
+display: block;               
+  width: 45%;                  
+  font-size: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 40px;
+  transition: background-color 1s, width .5s, color 1s;
+  color: black;
+  background-color: rgb(255, 176, 5); 
+  
+}
+
+
+nav li a:hover{
+  background-color: yellow;
+  color: red;
+  width: 100%
+}
+
+
+.Nebraska{
+text-align: left;
+ 
+}
+
+
 #wrapper {
   margin: 24px auto;
   width: 1200px;
@@ -11,11 +126,31 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
-  grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */
+  grid-template-rows: 600px; 
 }
 
-/* style for dummy columns, delete and replace with your own CSS */
+
 .dummycolumn {
   background-color: rgba(255,0,0,.25);
   grid-column: span 1;
+}
+
+footer a:hover{
+    color: white;
+    font-size: 50px;
+}
+
+
+footer a{
+    color: red;
+    font-size: 60px;
+    transition: all 2s;
+}
+
+footer{
+  grid-column: span 12;
+  display: grid;
+  background-color: orange;
+  padding: 70px;
+ font-size: 40px;
 }
